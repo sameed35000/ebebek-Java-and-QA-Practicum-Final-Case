@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Yağmur\eclipse-workspace\ebebek-Java-and-QA-Practicum-Final-Case\Java\.metadata\.plugins\org.eclipse.jdt.core
+3011209426.index
+1865797976.index
+3564703311.index
