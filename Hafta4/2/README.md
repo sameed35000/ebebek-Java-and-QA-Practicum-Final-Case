@@ -1,5 +1,5 @@
-### 2. Test Otomasyonu (UI)
-Aşağıdaki test senaryosunu Cucumber, Selenium ve istediğiniz programlama dili ile geliştiriniz.
+## 2. Test Otomasyonu (UI)
+### Aşağıdaki test senaryosunu Cucumber, Selenium ve istediğiniz programlama dili ile geliştiriniz.
 ---
 1. Ana sayfa açılır. [E-bebek](www.e-bebek.com)
 2. Arama çubuğuna "biberon" yazılır.
