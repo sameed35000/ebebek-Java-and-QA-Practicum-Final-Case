@@ -1,0 +1,199 @@
+{
+  "id": "3443445c-4d9b-4bb2-8694-173c05f8a081",
+  "version": "2.0",
+  "name": "ebebek",
+  "url": "https://www.e-bebek.com",
+  "tests": [{
+    "id": "17c6ca6f-e7a2-4cae-9370-698108151b72",
+    "name": "KasikMamasiFirstTry",
+    "commands": [{
+      "id": "c2fd7353-7d8f-44b0-9d04-d45486d2f45d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26a9ce4c-f435-419c-8fff-27c5fc3be6f0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "587b3186-385c-4b5a-b7f8-81625e4226be",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtSearchBox",
+      "targets": [
+        ["id=txtSearchBox", "id"],
+        ["css=#txtSearchBox", "css:finder"],
+        ["xpath=//input[@id='txtSearchBox']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kaşık maması"
+    }, {
+      "id": "98513991-e7b7-4b0b-9110-88f0acd508be",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=txtSearchBox",
+      "targets": [
+        ["id=txtSearchBox", "id"],
+        ["css=#txtSearchBox", "css:finder"],
+        ["xpath=//input[@id='txtSearchBox']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "bc3cd76d-0f38-4445-b96a-8591304beb0b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3c13c9d-c613-4bac-9a39-767eae0db723",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11690805-f1e0-43cc-b925-83fefac426c4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2970)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57cc9718-bc97-41b8-b59c-ae04ffe8b0a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-6:nth-child(43) .is-initialized > .ng-star-inserted",
+      "targets": [
+        ["css=.col-6:nth-child(43) .is-initialized > .ng-star-inserted", "css:finder"],
+        ["xpath=//img[@alt='OiOi Mama Kaşığı 2’li Aqua Green- Mellow']", "xpath:img"],
+        ["xpath=//eb-product-list-item[43]/div/eb-generic-link/a/figure/cx-media/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4be1b319-2128-45a6-a715-e7dfd122d182",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2898)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7cd99032-0d8a-4794-8b8a-9a80ca8847c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(1) > .ng-star-inserted > .product-info #txtProductTitle",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(1) > .ng-star-inserted > .product-info #txtProductTitle", "css:finder"],
+        ["xpath=(//b[@id='txtProductTitle'])[2]", "xpath:attributes"],
+        ["xpath=//h1[@id='txtBrandName']/b", "xpath:idRelative"],
+        ["xpath=//h1/b", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46925465-e16b-435f-a8c3-98cd884eec61",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ng-star-inserted:nth-child(1) > .ng-star-inserted > .product-info #txtProductTitle",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(1) > .ng-star-inserted > .product-info #txtProductTitle", "css:finder"],
+        ["xpath=(//b[@id='txtProductTitle'])[2]", "xpath:attributes"],
+        ["xpath=//h1[@id='txtBrandName']/b", "xpath:idRelative"],
+        ["xpath=//h1/b", "xpath:position"]
+      ],
+      "value": "Mama Kaşığı 2’li Aqua Green- Mellow Yellow"
+    }, {
+      "id": "e67f9c32-23ee-44bc-901d-6db65ea4f8b5",
+      "comment": "",
+      "command": "click",
+      "target": "id=addToCartBtn",
+      "targets": [
+        ["id=addToCartBtn", "id"],
+        ["css=#addToCartBtn", "css:finder"],
+        ["xpath=//button[@id='addToCartBtn']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sepete Ekle')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "500f750d-085a-417d-9da2-36d4cc7d9e91",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnShowCart",
+      "targets": [
+        ["id=btnShowCart", "id"],
+        ["linkText=Sepeti Gör", "linkText"],
+        ["css=#btnShowCart", "css:finder"],
+        ["xpath=//a[contains(text(),'Sepeti Gör')]", "xpath:link"],
+        ["xpath=//a[@id='btnShowCart']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '/cart')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sepeti Gör')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74f3d482-26a8-47c5-9d53-9062f5fab5d5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7433cb1-2e6e-43aa-be4b-1818ae221d6c",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnGoToShippingAddress",
+      "targets": [
+        ["id=btnGoToShippingAddress", "id"],
+        ["css=#btnGoToShippingAddress", "css:finder"],
+        ["xpath=//button[@id='btnGoToShippingAddress']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Alışverişi Tamamla')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa0eca85-04b7-4fae-80de-3f27b1d77ca2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,50)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab31f9cc-625f-4b00-b181-3faf93d15ece",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(1) > .card",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(1) > .card", "css:finder"],
+        ["xpath=//eb-login-username/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d244e46b-3a4f-494c-b793-4e82838df4d6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ng-untouched > .title-primary",
+      "targets": [
+        ["css=.ng-untouched > .title-primary", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Üyelik')]", "xpath:innerText"]
+      ],
+      "value": "Üyelik"
+    }]
+  }],
+  "suites": [{
+    "id": "546dfb13-bc50-4020-b3d4-6c076d75b4c0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.e-bebek.com/"],
+  "plugins": []
+}
